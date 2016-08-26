@@ -13,9 +13,9 @@ let colors_name = "zenesque"
 if &background == "light"
   " default scheme
 
-  hi Normal       guifg=#000000          guibg=#e0e0d8   gui=NONE
-  hi CursorLine   guifg=NONE             guibg=#e1e1d0   gui=NONE
-  hi CursorColumn guifg=NONE             guibg=#e1e1d0   gui=NONE
+  hi Normal       guifg=#000000          guibg=#fdf6e3   gui=NONE
+  hi CursorLine   guifg=NONE             guibg=#eee8d5   gui=NONE
+  hi CursorColumn guifg=NONE             guibg=#eee8d5   gui=NONE
   hi LineNr       guifg=#a9a99e          guibg=NONE      gui=NONE
   hi Constant     guifg=#353535          guibg=NONE      gui=bold
   hi Statement    guifg=#363636          guibg=NONE      gui=italic
@@ -26,7 +26,7 @@ if &background == "light"
   hi Todo         guifg=fg               guibg=NONE      gui=bold,underline
   hi Comment      guifg=#797979          guibg=NONE      gui=italic
   hi PmenuSel     guifg=fg               guibg=#a9a9aa   gui=bold
-  hi ColorColumn  guifg=NONE             guibg=#e6e6e6
+  hi ColorColumn  guifg=NONE             guibg=#eee8d5
   hi Cursor       guifg=bg               guibg=fg        gui=NONE
   hi CursorIM     guifg=bg               guibg=fg        gui=NONE
   hi lCursor      guifg=bg               guibg=fg        gui=NONE
@@ -95,9 +95,9 @@ elseif &background == "dark"
 
     set background=dark
 
-    hi Normal       guifg=#adadad          guibg=#1a1a1a   gui=NONE
-    hi CursorLine   guifg=NONE             guibg=#000000   gui=NONE
-    hi CursorColumn guifg=NONE             guibg=#000000   gui=NONE
+    hi Normal       guifg=#adadad          guibg=#002833   gui=NONE
+    hi CursorLine   guifg=NONE             guibg=#073642   gui=NONE
+    hi CursorColumn guifg=NONE             guibg=#073642   gui=NONE
     hi LineNr       guifg=#555555          guibg=NONE      gui=NONE
     hi Constant     guifg=#848484          guibg=NONE      gui=bold
     hi Statement    guifg=#a6a6a6          guibg=NONE      gui=italic
@@ -115,7 +115,7 @@ elseif &background == "dark"
 
 
     hi Visual       guifg=NONE             guibg=#313131   gui=NONE
-    hi ColorColumn  guifg=NONE             guibg=#e6e6e6 
+    hi ColorColumn  guifg=NONE             guibg=#073642
     hi Cursor       guifg=bg               guibg=fg        gui=NONE
     hi CursorIM     guifg=bg               guibg=fg        gui=NONE
     hi lCursor      guifg=bg               guibg=fg        gui=NONE
