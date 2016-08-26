@@ -95,7 +95,7 @@ elseif &background == "dark"
 
     set background=dark
 
-    hi Normal       guifg=#adadad          guibg=#002833   gui=NONE
+    hi Normal       guifg=#adadad          guibg=#002b36   gui=NONE
     hi CursorLine   guifg=NONE             guibg=#073642   gui=NONE
     hi CursorColumn guifg=NONE             guibg=#073642   gui=NONE
     hi LineNr       guifg=#555555          guibg=NONE      gui=NONE
