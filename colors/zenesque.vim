@@ -71,7 +71,7 @@ if &background == "light"
   hi WildMenu     guifg=#000000          guibg=#c2c2c2   gui=NONE
 
   hi Boolean      guifg=#616060          guibg=NONE      gui=bold
-  hi Identifier   guifg=#141414          guibg=NONE      gui=bold
+  hi Identifier   guifg=#363636          guibg=NONE      gui=bold
   hi Keyword      guifg=#666666          guibg=NONE      gui=underline
   hi PreProc      guifg=#363636          guibg=NONE      gui=bold
   hi Special      guifg=#6e6e6e          guibg=NONE      gui=NONE
@@ -109,7 +109,7 @@ elseif &background == "dark"
     hi Comment      guifg=#555555          guibg=NONE      gui=NONE
     hi PmenuSel     guifg=#000000          guibg=#a9a9aa   gui=bold
     hi Special      guifg=#868585          guibg=NONE      gui=NONE
-    hi Identifier   guifg=#626262          guibg=NONE      gui=bold
+    hi Identifier   guifg=#a6a6a6          guibg=NONE      gui=bold
     hi Keyword      guifg=#858585          guibg=NONE      gui=underline
     hi PreProc      guifg=#a6a6a6          guibg=NONE      gui=italic
 
