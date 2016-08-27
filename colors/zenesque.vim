@@ -18,7 +18,7 @@ if &background == "light"
   hi CursorColumn guifg=NONE             guibg=#eee8d5   gui=NONE
   hi LineNr       guifg=#a9a99e          guibg=NONE      gui=NONE
   hi Constant     guifg=#353535          guibg=NONE      gui=bold
-  hi Statement    guifg=#363636          guibg=NONE      gui=italic
+  hi Statement    guifg=#363636          guibg=NONE      gui=bold
   hi Function     guifg=fg               guibg=NONE      gui=bold
   hi String       guifg=#3c3c3c          guibg=NONE      gui=NONE
   hi Type         guifg=#616161          guibg=NONE      gui=bold,italic
@@ -73,7 +73,7 @@ if &background == "light"
   hi Boolean      guifg=#616060          guibg=NONE      gui=bold
   hi Identifier   guifg=#141414          guibg=NONE      gui=bold
   hi Keyword      guifg=#666666          guibg=NONE      gui=underline
-  hi PreProc      guifg=#6b6b6b          guibg=NONE      gui=NONE
+  hi PreProc      guifg=#363636          guibg=NONE      gui=bold
   hi Special      guifg=#6e6e6e          guibg=NONE      gui=NONE
   hi Ignore       guifg=bg               guibg=NONE      gui=NONE
   hi Error        guifg=#727272          guibg=NONE      gui=undercurl
@@ -100,7 +100,7 @@ elseif &background == "dark"
     hi CursorColumn guifg=NONE             guibg=#073642   gui=NONE
     hi LineNr       guifg=#555555          guibg=NONE      gui=NONE
     hi Constant     guifg=#848484          guibg=NONE      gui=bold
-    hi Statement    guifg=#a6a6a6          guibg=NONE      gui=italic
+    hi Statement    guifg=#a6a6a6          guibg=NONE      gui=bold
     hi Function     guifg=#919191          guibg=NONE      gui=bold
     hi String       guifg=#838383          guibg=NONE      gui=italic
     hi Type         guifg=#838383          guibg=NONE      gui=bold,italic
@@ -111,7 +111,7 @@ elseif &background == "dark"
     hi Special      guifg=#868585          guibg=NONE      gui=NONE
     hi Identifier   guifg=#626262          guibg=NONE      gui=bold
     hi Keyword      guifg=#858585          guibg=NONE      gui=underline
-    hi PreProc      guifg=#6b6b6b          guibg=NONE      gui=italic
+    hi PreProc      guifg=#a6a6a6          guibg=NONE      gui=italic
 
 
     hi Visual       guifg=NONE             guibg=#313131   gui=NONE
